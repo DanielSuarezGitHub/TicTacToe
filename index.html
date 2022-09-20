@@ -7,8 +7,31 @@
     <title>TicTacToe</title>
     <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    
+    <div style="display: non;" class="start">
+        <h1 class="starttext">Tic Tac Toe</h1>
+    </div>
+    <div style="display: non;" class="board">
+        <div class="container">
+            <div class="box" id="0"></div>
+            <div class="box" id="1"></div>
+            <div class="box" id="2"></div>
+            <div class="box" id="3"></div>
+            <div class="box" id="4"></div>
+            <div class="box" id="5"></div>
+            <div class="box" id="6"></div>
+            <div class="box" id="7"></div>
+            <div class="box" id="8"></div>
+        </div>
+    </div>
+    <dialog class="gameend">
+        <div class="winner">
+            <h1>Game Over</h1>
+            <p></p>
+            <button class="Restart">restart</button>
+        </div>
+    </dialog>
 </body>
 </html>
